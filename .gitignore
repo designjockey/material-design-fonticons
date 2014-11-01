@@ -1,0 +1,6 @@
+#dependencies
+/bower_components
+
+#system files
+.DS_Store
+.idea
