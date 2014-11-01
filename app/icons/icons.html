@@ -1,0 +1,18 @@
+<div class="container">
+    Search: <input ng-model="iconSearch">
+    <div class="" ng-repeat="(cat, class) in icondata">
+        <div class="row mdfi-cat-row">
+            <div class="col-lg-12 col-md-12">
+                {{ cat }} ({{class.length}})
+            </div>
+        </div>
+        <div class="row mdfi-icon-row">
+            <div class="col-md-3 col-sm-4 mdfi-icon-container" ng-repeat="c in class | filter:iconSearch" >
+                <span class="mdfi-icon truncate">
+                    <i class="{{c}}"></i>
+                    {{c}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

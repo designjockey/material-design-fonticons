@@ -1,0 +1,40 @@
+[class^="mdfi_"]{
+    font-size: 14px;
+}
+.mdfi-cat-row {
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #cecece;
+}
+
+.mdfi-icon {
+    line-height: 32px;
+    padding: 2px 10px 4px 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mdfi-icon i {
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mdfi-icon:hover{
+     background-color: #D4396D;
+     color: #fff;
+     cursor: default;
+     overflow: visible;
+}
+.mdfi-icon:hover i{
+    font-size: 28px;
+}
+
+.truncate {
+    width:100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
