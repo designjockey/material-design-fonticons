@@ -1,5 +1,68 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    font-size: 22px;
+    text-align: center;
+    color: #D4396D;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+h2:after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #AA7E9F;
+    width: 100%;
+    margin: 10px auto 0 auto;
+}
+a{
+    color: #FFE3EC;
+    text-decoration: underline;
+}
+a:hover{
+    color: #FFF;
+}
+p {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.jumbotron, footer {
+    padding: 70px 0;
+    background-color: #D4396D;
+    color: #fff;
+    margin: 0;
+    border-bottom: 1px solid #A81E4D;
+    border-top: 1px solid #AA7E9F;
+}
+.jumbotron h1 {
+    font-weight: 400;
+    text-shadow: 5px 5px 3px #A81E4D;
+}
+.jumbotron .project-info{
+    color: #FFC4D8;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.bg-flush {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    border-bottom: 1px solid #EBE4E4;
+}
+.bg-flush input.icon-search {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    width: 100%;
+    color: #A81E4D;
+}
+.bg-flush input.icon-search:focus {
+    outline-color: #FFC4D8;
+}
 [class^="mdfi_"]{
-    font-size: 14px;
+    font-size: 16px;
 }
 .mdfi-cat-row {
     padding: 5px;
@@ -7,7 +70,6 @@
     margin-bottom: 15px;
     text-transform: uppercase;
     font-size: 20px;
-    background-color: #cecece;
 }
 
 .mdfi-icon {
@@ -15,20 +77,27 @@
     padding: 2px 10px 4px 10px;
     display: inline-block;
     vertical-align: middle;
+    color: #999;
 }
 .mdfi-icon i {
     padding-right: 10px;
     display: inline-block;
     vertical-align: middle;
+    color: #222;
 }
 .mdfi-icon:hover{
-     background-color: #D4396D;
-     color: #fff;
-     cursor: default;
-     overflow: visible;
+    background-color: #D4396D;
+    color: #fff;
+    cursor: default;
+    overflow: visible;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .mdfi-icon:hover i{
     font-size: 28px;
+    color: #fff;
 }
 
 .truncate {
@@ -37,4 +106,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
     display: block;
+}
+.footer {
+    margin-top: 80px;
 }
