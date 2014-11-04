@@ -1,0 +1,21 @@
+{
+  "name": "material-design-fonticons",
+  "version": "1.0.0",
+  "description": "Material Design Fonticons is a font converted version of the Google Material Design Icon set.",
+  "main": "styles/mdfi.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/designjockey/material-design-fonticons.git"
+  },
+  "keywords": [
+    "material-design-fonticons",
+    "fonticons",
+    "mdfi"
+  ],
+  "author": "Ritesh Manchanda <me@ritesh.it>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/designjockey/material-design-fonticons/issues"
+  },
+  "homepage": "https://github.com/designjockey/material-design-fonticons"
+}
