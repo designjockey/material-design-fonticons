@@ -7,7 +7,7 @@ Material Design Fonticons is a font converted version of the Google Material Des
 
 ### Bower
 
-Install the icons using the [Bower](http://bower.io) package manager.
+Install the Fonticons using the [Bower](http://bower.io) package manager.
 
 ```sh
 $ bower install material-design-fonticons
@@ -15,7 +15,7 @@ $ bower install material-design-fonticons
 
 ### npm
 
-You can also find all the icons on [npm](http://npmjs.org).
+You can also find all the Fonticons on [npm](http://npmjs.org).
 
 ```sh
 $ npm install material-design-fonticons
