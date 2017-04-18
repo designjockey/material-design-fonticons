@@ -29,7 +29,7 @@ Take a look at [Fonticons search page] (http://designjockey.github.io/material-d
 
 There are multiple css files included in the `styles` folder. The `mdfi.css` file includes the `mdfi` font with icons from all the categories, while other category specific css files `mdfi_{category}.css` contain category specific icons with font name `mdfi-{category}`.
 
-##Using the Fonticons
+## Using the Fonticons
 
 For using the icons follow the below instructions. The icon classes are named using the `mdfi_{category}_{original_icon_name}` convention. Refer to [Fonticons search page] (http://designjockey.github.io/material-design-fonticons/) for class names.
 
